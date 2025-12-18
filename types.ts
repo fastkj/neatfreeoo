@@ -33,7 +33,7 @@ export interface SourceMap {
 
 // 默认的公开读取权限仓库
 export const DEFAULT_OWNER = "fashkj";
-export const DEFAULT_REPO = "Neatfree";
+export const DEFAULT_REPO = "neatfreeoo";
 
 // 用户要求的默认显示域名
 export const DEFAULT_DOMAIN = "https://clash.fastkj.eu.org";
