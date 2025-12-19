@@ -1,5 +1,9 @@
 [
-  "https://github.com/Barabama/FreeNodes/blob/main/nodes/nodefree.yaml",
-  "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
-  "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt"
+  "https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/subs/merged/tested_within.yaml",
+  "https://cdn.jsdelivr.net/gh/a2470982985/getNode@main/clash.yaml",
+  "https://raw.githubusercontent.com/ggborr/FREEE-VPN/refs/heads/main/12clash",
+  "https://gh-proxy.org/raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.yaml",
+  "https://gh-proxy.org/raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml",
+  "https://gh-proxy.org/raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml",
+  "https://cdn.jsdelivr.net/gh/a2470982985/getNode@main/v2ray.txt"
 ]
