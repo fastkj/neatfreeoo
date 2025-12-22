@@ -1,17 +1,7 @@
 {
-  "settings": {
+  "clashads": {
     "image": "https://img.fastkj.eu.org/file/1766339973940_IMG_20251222_015807.png",
     "link": "https://www.youtube.com/",
-    "show": false
-  },
-  "detail": {
-    "image": "https://img.fastkj.eu.org/file/1766339973940_IMG_20251222_015807.png",
-    "link": "https://www.youtube.com/",
-    "show": false
-  },
-  "search": {
-    "image": "https://img.fastkj.eu.org/file/1766339973940_IMG_20251222_015807.png",
-    "link": "https://www.youtube.com/",
-    "show": false
+    "show": true
   }
 }
