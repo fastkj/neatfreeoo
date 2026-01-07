@@ -30,10 +30,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港2|@stairnode
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港3|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 443
-  server: 58.152.18.147
+  server: 58.152.110.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -51,66 +60,72 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港6|@stairnode
+  password: sxnCPKb70DGRo62-goXFVHrjzF-5oMbD
+  port: 33007
+  server: 103.109.23.165
+  type: ss
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
   port: 3194
-  server: 54.238.144.17
+  server: 3.112.45.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本2|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 1933
-  server: 52.198.241.226
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 4006
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 4006
-  server: 52.198.241.226
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 1933
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 52.198.241.226
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 153.121.44.99
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡3|@stairnode
   password: BxceQaOe
-  port: 804
-  server: 52.198.241.226
+  port: 2673
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇺🇸 美国|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 52.198.241.226
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国2|@stairnode
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 153.121.44.99
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@stairnode
   password: BxceQaOe
-  port: 1221
-  server: 3.113.31.15
+  port: 3127
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -121,9 +136,11 @@ proxy-groups:
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -139,9 +156,11 @@ proxy-groups:
   proxies:
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -161,9 +180,11 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -180,9 +201,11 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -199,9 +222,11 @@ proxy-groups:
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -218,9 +243,11 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -238,9 +265,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
@@ -274,9 +303,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
+  - 🇭🇰 香港6|@stairnode
   - 🇯🇵 日本|@stairnode
   - 🇯🇵 日本2|@stairnode
   - 🇯🇵 日本3|@stairnode
